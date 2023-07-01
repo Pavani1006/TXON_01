@@ -1,0 +1,74 @@
+
+        body{
+            background-image:linear-gradient(rgba(0, 0 ,0,0.6),rgba(0, 0, 0, 0.6)),url('6.jpg');
+            background-size: cover;
+        }
+        .matter{
+            font-family: cursive;
+            color:rgb(239, 232, 232) ;
+            margin-left: 150px;
+        }
+        .matter .nav{
+        display: flex;
+        padding-top:30px ;
+        margin-left: 400px;
+      }
+      .nav a{
+        text-decoration: none;
+        padding-top: 20px;
+        padding: 5px;
+        color:rgb(239, 232, 232) ;
+        font-size: 24px;
+        font-weight:bolder;
+        margin-right:none ;
+        margin-left: 35px;
+        text-align: right;
+        border-bottom: 4px solid rgba(160, 157, 153, 0.592);
+
+      }
+      .a{
+        font-size: 22px;
+        width:900px;
+        font-weight: bold;
+        line-height: 30px;
+        word-spacing: 3px;
+        margin-top:60px ;
+      }
+      .button button{
+        padding: 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .head{
+        margin-top:80px ;
+        font-size: 24px;
+      }
+    .b{
+        font-weight: bold;
+        margin-top:60px ;
+        font-size: 24px;
+      }
+      .b span{
+        font-size: 26px;
+        color: rgba(160, 157, 153, 0.592);
+      }
+      .card{
+        margin-left: 150px;
+      }
+      .card img{
+        height: 190px;
+      }
+      .join{
+        margin-top: 160px;
+        display: flex;
+        padding: 20px;
+      }
+      .card{
+        
+    transition: all 0.3s;
+      } 
+      .card:hover{
+        transform: scale(1.09);
+      }
